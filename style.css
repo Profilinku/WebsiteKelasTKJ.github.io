@@ -1,0 +1,186 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/images (3).jpeg");
+}
+
+nav {
+  background-color: #FAFAFF1A;
+  overflow: hidden;
+  font-size: 15px;
+  
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: 'Orbitron', sans-serif;
+
+  
+}
+
+nav a:hover {
+  background-color: #4A4A4A;
+  color: black;
+  
+}
+
+nav img {
+  height: 40px;
+  margin-top: 5px;
+}
+
+header {
+  background-color: #F2F2F2;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  box-shadow: 10px 5px 19px -1px rgba(65, 65, 65, 1);
+  background-color: #FAFAFF12;
+  border-radius: 0.50rem;
+  height: 6rem;
+  width: 20.0rem;
+  font-family: 'Fredericka the Great', serif;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+section img {
+      max-width: 50%;
+      box-shadow:  -2px 4px 100px -21px rgba(36, 55, 255, 1);
+  border-radius: 20rem;
+  max-height: 50%;
+  max-width: 50%;
+}
+.section-p {
+  
+  box-shadow:  1px 2px 2.50px 1px rgba(255, 255, 255, 0.98) ;
+  border-radius: 1rem;
+  background-color: #00000054;
+  border-color: black;
+  height: 6rem;
+  width: 20rem;
+  font-size: 1.1rem;
+  font-family: 'Genos', sans-serif;
+  
+  color: #FFFFFF;
+}
+.section-p2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFFBA;
+    
+}
+.section-p3 {
+    font-family: 'Genos', sans-serif;
+    color:#FFFFFFBA;
+}
+.sec-img {
+  box-shadow:  10px 5px 19px -1px rgba(65, 65, 65, 1);
+  border-radius: 1rem;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+        .social-icons {
+            margin-top: 1em;
+    display: flex;
+    justify-content: center;
+           
+            
+        }
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px;
+            
+        }
+     /* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 50%;
+    display: block;
+    
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 22rem;
+  border-radius: 2rem;
+  background-color: #0000004A;
+  
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+  
+ 
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.title {
+  color: #FFFFFFBA;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.container-h2{
+  font-family: 'Genos', sans-serif;
+  color: #FFFFFFBA;
+}
+.kelas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 3px;
+  font-weight: 6px;
+}
+.logo {  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50px;
+  font-size: px;
+}
